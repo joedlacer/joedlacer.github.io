@@ -4,7 +4,8 @@
   }
   body{
     margin: 0px;
-    background: "http://meusjutsusnrpg.weebly.com/uploads/1/5/8/6/15863800/909961.jpg?414"
+   background-image:url(http://meusjutsusnrpg.weebly.com/uploads/1/5/8/6/15863800/909961.jpg?414);
+   background-repeat: no-repeat;
   }
   body{
     background-color: #ffffff;
