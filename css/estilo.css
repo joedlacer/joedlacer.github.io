@@ -3,9 +3,13 @@
     height: 100%;
   }
   body{
-    margin: 0px;
-   background-image:url(http://meusjutsusnrpg.weebly.com/uploads/1/5/8/6/15863800/909961.jpg?414);
+   background-image:url(https://cdna.artstation.com/p/assets/images/images/005/471/398/large/ben-lo-unc-ice08-env.jpg?1491274090);
    background-repeat: no-repeat;
+   -moz-background-size:100% 100%;
+   -webkit-background-size:100% 100%;
+   background-size:100% 100%;  
+   background-attachment:fixed;
+ }
   }
   body{
     background-color: #ffffff;
