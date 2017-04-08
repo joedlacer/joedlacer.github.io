@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color:#B4CDCD;
+    background-color:#696969;
 }
 
 .botao li a {
@@ -19,12 +19,12 @@
 }
 
 .botao li a.active {
-   background-color: #B2DFEE;
+   background-color: #8B8386;
    color: white;
 }
 
 .botao li a:hover:not(.active) {
-    background-color: #555;
+    background-color: #C1CDC1;
     color: white;
 }
 
@@ -36,7 +36,7 @@ body{
     header,footer {
       padding: 1em;
       border: 1px;
-      background-color: #D1EEEE;
+      background-color: #9C9C9C;
     }
     nav {
       float: left;
@@ -57,12 +57,12 @@ body{
       font-family: Comic Sans MS;
     }
     table,td,th {
-      border: 2px solid #B2DFEE;
+      border: 2px solid #696969;
      
       font-family: Trebuchet MS;
     }
     table {
-      background-color: #B4CDCD;
+      background-color:#CDC1C5;
     } 
  article {
    margin-left: 150px;
@@ -74,12 +74,12 @@ body{
       td {
         width:400px;
         padding:5px;
-        background-color:#D1EEEE;
+        background-color:#828282;
     }
     
     th {
       width:150px;
       padding:5px;
-      background-color:#B4CDCD;
+      background-color:#828282;
       text-align:left;
     }
