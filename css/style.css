@@ -1,0 +1,85 @@
+.imagens img {
+   padding:2em;
+}
+
+.botao ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:#B4CDCD;
+}
+
+.botao li a {
+   display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+
+.botao li a.active {
+   background-color: #B2DFEE;
+   color: white;
+}
+
+.botao li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+body{
+   background-image:url(https://www.toptal.com/designers/subtlepatterns/patterns/ep_naturalwhite.png);
+
+    }
+ 
+    header,footer {
+      padding: 1em;
+      border: 1px;
+      background-color: #D1EEEE;
+    }
+    nav {
+      float: left;
+        padding: 1em;
+    }
+    
+    img.img1 {
+      height:200px;
+      width:200px;
+      float: left;
+    }
+    
+    p {
+      font-family: helvetica;
+    } 
+    
+    h1, h2 {
+      font-family: Comic Sans MS;
+    }
+    table,td,th {
+      border: 2px solid #B2DFEE;
+     
+      font-family: Trebuchet MS;
+    }
+    table {
+      background-color: #B4CDCD;
+    } 
+ article {
+   margin-left: 150px;
+   border-left: 10px ;
+   padding: 1em;
+   overflow:hidden;
+}
+    
+      td {
+        width:400px;
+        padding:5px;
+        background-color:#D1EEEE;
+    }
+    
+    th {
+      width:150px;
+      padding:5px;
+      background-color:#B4CDCD;
+      text-align:left;
+    }
