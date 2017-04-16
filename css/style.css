@@ -36,7 +36,7 @@ body{
     header,footer {
       padding: 1em;
       border: 1px;
-      background-color: #9C9C9C;
+      background-color: #00BFFF;
     }
     nav {
       float: left;
@@ -57,12 +57,12 @@ body{
       font-family: Comic Sans MS;
     }
     table,td,th {
-      border: 2px solid #696969;
+      border: 2px solid #00BFFF;
      
       font-family: Trebuchet MS;
     }
     table {
-      background-color:#CDC1C5;
+      background-color:#E0FFFF;
     } 
  article {
    margin-left: 150px;
@@ -74,12 +74,12 @@ body{
       td {
         width:400px;
         padding:5px;
-        background-color:#828282;
+        background-color:#B0C4DE;
     }
     
     th {
       width:150px;
       padding:5px;
-      background-color:#828282;
+      background-color:#B0C4DE;
       text-align:left;
     }
