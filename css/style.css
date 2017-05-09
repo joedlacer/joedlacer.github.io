@@ -36,12 +36,11 @@ body{
     header,footer {
       padding: 1em;
       border: 1px;
-      background-color: #00BFFF;
+      background-color: #696969;
     }
     nav {
       float: left;
         padding: 1em;
-       color: #00BFFF;
     }
     
     img.img1 {
