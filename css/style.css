@@ -2,7 +2,7 @@
    padding:2em;
 }
 
-.botao ul {
+.container ul {
    list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@
     background-color:#696969;
 }
 
-.botao li a {
+.container li a {
    display: block;
     color: #000;
     padding: 8px 16px;
@@ -18,12 +18,12 @@
     
 }
 
-.botao li a.active {
+.container li a.active {
    background-color: #8B8386;
    color: white;
 }
 
-.botao li a:hover:not(.active) {
+.container li a:hover:not(.active) {
     background-color: #C1CDC1;
     color: white;
 }
@@ -50,7 +50,7 @@ body{
     }
     
     p {
-      font-family: helvetica;
+      font-family: dark crystal script;
     } 
     
     h1, h2 {
