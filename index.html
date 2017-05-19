@@ -4,7 +4,6 @@
  <link rel="stylesheet" href="css/style.css"> 
 <title> Minha vida </title>
 <meta charset='utf-8'/>
- <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,17 +14,19 @@
 <h1><center>Tudo Que Você Precisa Saber Sobre Mim</center></h1>
   </header>
   <nav>
-   <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-   <div class="container">
-    <ul>
-      <li><a class="active" href="index.html">Sobre Mim</a></li><br/>
-        <li><a href="habilidades.html">Habilidades</a></li><br/>
-        <li><a href="blog.html">Blog</a></li><br/>
-        <li><a href="html/portfolio.html">Portfólio</a></li><br/>
-    </ul>
-     </div>
+   <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a class="active" href="index.html">Sobre Mim</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="html/portfolio.html">Portfólio</a></li>
+  </ul>
+</div>
   </nav>
   <article>
    <h2>Sobre Mim</h2>
@@ -88,9 +89,12 @@
 <ul>
 <li>ABSOLUTAMENTE NADA</li>
  <li>(Obs.: Apenas coisas ruins)</li>
- 
+ </ul>
+ <ul>
+ <li>Playlist:(nightcore)</li>
+ <li>onClick="location='https://www.youtube.com/playlist?list=PLUHEjEXojSjGvwZZgmfhZcDsdH51WpK2p'"</li>
+  </ul>
   </article>
   <footer><center>My Hell For You © Joedno Junior</center></footer>
-   
    </body>
-</html>
+ </html>
