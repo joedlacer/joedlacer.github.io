@@ -2,7 +2,7 @@
    padding:2em;
 }
 
-.container ul {
+.dropdown-menu ul {
    list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@
     background-color:#696969;
 }
 
-.container li a {
+.dropdown li a {
    display: block;
     color: #000;
     padding: 8px 16px;
@@ -18,12 +18,12 @@
     
 }
 
-.container li a.active {
+.dropdown li a.active {
    background-color: #8B8386;
    color: white;
 }
 
-.container li a:hover:not(.active) {
+.dropdown li a:hover:not(.active) {
     background-color: #C1CDC1;
     color: white;
 }
@@ -62,7 +62,7 @@ body{
       font-family: Trebuchet MS;
     }
     table {
-      background-color:#E0FFFF;
+      background-color:#696969;
     } 
  article {
    margin-left: 150px;
