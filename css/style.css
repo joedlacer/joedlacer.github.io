@@ -1,85 +1,111 @@
-.imagens img {
-   padding:2em;
+body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #D3D3D3;
+       background-image:url("https://s-media-cache-ak0.pinimg.com/originals/b2/39/88/b23988d432dbb9f5b6412e5b757424c3")
+  }
+.navbar-brand {
+  font: 20px 'Indie Flower', cursive
 }
 
-.dropdown-menu ul {
-   list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color:#696969;
+.logo {
+  color: #B5B5B5;
+}
+	 
+  p {
+    font-size: 16px;
+  }
+
+  .container-fluid {
+    padding: 60px 50px;
+  }
+
+  .margin {
+    margin-bottom: 45px;
+  }
+
+    .navbar {
+    margin-bottom: 0;
+    background-color: #000000;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
 }
 
-.dropdown li a {
-   display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    
+.navbar li a, .navbar .navbar-brand {
+    color: #4169E1 !important;
 }
 
-.dropdown li a.active {
-   background-color: #8B8386;
-   color: white;
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0099cc !important;
+    background-color: #F0FFFF !important;
 }
 
-.dropdown li a:hover:not(.active) {
-    background-color: #C1CDC1;
-    color: white;
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
 }
 
-body{
-   background-image:url("https://s-media-cache-ak0.pinimg.com/originals/b2/39/88/b23988d432dbb9f5b6412e5b757424c3.png");
-
-    }
- 
-    header,footer {
-      padding: 1em;
-      border: 1px;
-      background-color: #696969;
-    }
-    nav {
-      float: left;
-        padding: 1em;
-    }
-    
-    img.img1 {
-      height:200px;
-      width:200px;
-      float: left;
-    }
-    
-    p {
-      font-family: dark crystal script;
-    } 
-    
-    h1, h2 {
-      font-family: Comic Sans MS;
-    }
-    table,td,th {
-      border: 2px solid #696969;
-     
-      font-family: Trebuchet MS;
-    }
-    table {
-      background-color:#696969;
-    } 
- article {
-   margin-left: 150px;
-   border-left: 10px ;
-   padding: 1em;
-   overflow:hidden;
+.bg-1 {
+  background-color: #0099cc;
+  color: #EEE9E9;
 }
-    
-      td {
-        width:400px;
-        padding:5px;
-        background-color:#B0C4DE;
-    }
-    
-    th {
-      width:150px;
-      padding:5px;
-      background-color:#B0C4DE;
-      text-align:left;
-    }
+
+.bg-2 {
+  background-color: #EEE9E9;
+  color: black;
+}
+
+.bg-3 {
+  background-color: #EEE9E9;
+  color: black;
+}
+
+.bg-4 {
+  background-color: #EEE9E9;
+  color: black;
+}
+
+.bg-5 {
+  background-color: #FFFAFA;
+  color: black;
+}
+
+.infg {
+  padding-left: 70px;
+}
+
+.logo-small {
+    color: #0099cc;
+    font-size: 30px;
+}
+
+p.inf {
+  font-size: 25px;
+  padding-left: 80px;
+}
+
+p.text {
+  font-size: 18px;
+  text-indent: 4em;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    color: black;
+}
+
+.thumbnail img {
+    margin-bottom: 10px;
+}
+
+footer .glyphicon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:  #0099cc;
+}
