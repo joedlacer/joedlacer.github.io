@@ -1,0 +1,41 @@
+<html>
+<head>
+Formulário Prog web
+<style>
+body {
+      background=(URL)"https://s-media-cache-ak0.pinimg.com/originals/58/f5/0e/58f50edee5e9d8a70eed8a7aaef7b95d.png"
+}
+</style>
+</head>
+<body>
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> <br>
+<form action="/action_page.php">
+  <input type="radio" name="gender" value="male"> Másculo<br>
+  <input type="radio" name="gender" value="female"> Feminino<br>
+  <input type="radio" name="gender" value="other"> Emásculo<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+  <input type="submit">
+</form><br>
+<form action="">
+<input type="checkbox" name="musical type" value="Rock">Rock<br>
+<input type="checkbox" name="musical type" value="Kpop">Kpop<br> 
+<input type="checkbox" name="musical type" value="Pop">Pop<br>
+<input type="checkbox" name="musical type" value="Blues">Blues<br>
+<input type="checkbox" name="musical type" value="Nightcore">Nightcore<br>
+<input type="checkbox" name="musical type" value="Ncs">Ncs<br>
+<input type="checkbox" name="musical type" value="Funk">Funk
+
+</form>
+
+<br><p>(Joedno)</p>
+
+</body>
+</html>
