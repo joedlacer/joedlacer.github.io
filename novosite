@@ -1,18 +1,13 @@
 <html>
 <head>
 Formulário Prog web
-<style>
-body {
-      background=(URL)"https://s-media-cache-ak0.pinimg.com/originals/58/f5/0e/58f50edee5e9d8a70eed8a7aaef7b95d.png"
-}
-</style>
 </head>
 <body>
 <form action="/action_page.php">
-  First name:<br>
+  Name:<br>
   <input type="text" name="firstname" value="">
   <br>
-  Last name:<br>
+  Contact:<br>
   <input type="text" name="lastname" value="">
   <br><br>
   <input type="submit" value="Submit">
@@ -34,6 +29,8 @@ body {
 <input type="checkbox" name="musical type" value="Funk">Funk
 
 </form>
+<br><textarea rows="5" cols="65">
+</textarea>
 
 <br><p>(Joedno)</p>
 
