@@ -1,14 +1,17 @@
 <html>
 <head>
-Formulário Prog web
+<title>Formulário Prog web</title>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="http://img14.deviantart.net/f5a1/i/2011/081/4/f/circle_of_the_eclipse_by_gaudifanyay-d3c7vla.png" type="image/x-png">
 </head>
 <body>
 <form action="/action_page.php">
   Name:<br>
-  <input type="text" name="firstname" value="">
+  <input type="text" name="firstname" value="nome">
   <br>
   Contact:<br>
-  <input type="text" name="lastname" value="">
+  <input type="text" name="lastname" value="sobrenome">
   <br><br>
   <input type="submit" value="Submit">
 </form> <br>
@@ -27,9 +30,34 @@ Formulário Prog web
 <input type="checkbox" name="musical type" value="Nightcore">Nightcore<br>
 <input type="checkbox" name="musical type" value="Ncs">Ncs<br>
 <input type="checkbox" name="musical type" value="Funk">Funk
-
 </form>
-<br><textarea rows="5" cols="65">
+<br>
+<form>
+Selecione a sua cor favorita.:
+<input type="color" name="favcolor">
+</form><br>
+
+<form>
+Coloque sua data de aniversário.:
+<input type="date" name="bday">
+</form><br>
+
+<form>
+Seu email.:
+<input type="email" name="email">
+</form><br>
+
+<form>
+Conhecimento HTML:
+<input type="range" name="points" min="0" max="100">
+</form><br>
+
+<form>
+CSS:
+<input type="range" name="points" min="0" max="100">
+</form><br>
+
+<textarea rows="5" cols="65">Comentários
 </textarea>
 
 <br><p>(Joedno)</p>
