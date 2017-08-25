@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Formulário Prog web</title>
@@ -8,22 +9,26 @@
     </head>
 <body>
 <form action="/action_page.php">
-  <p>Name:</p><br>
-  <input type="text" name="firstname" value="nome">
+  <p>Name:</p>
+  <input type="text" name="firstname" placeholder="Nome" autofocus required>
   <br>
-  <p>Contact:</p><br>
-  <input type="text" name="lastname" value="sobrenome">
+  <p>Contact:</p>
+  <input type="text" name="lastname" placeholder="Sobrenome" required>
+  <br>
+  <p>Telefone:</p>
+  <input type="text" name="firstname" placeholder="(XX)XXXXX-XXXX" pattern="^(\(11\) [9][0-9]{4}-[0-9]{4})|(\(1[2-9]\) [5-9][0-9]{3}-[0-9]{4})|(\([2-9][1-9]\) [5-9][0-9]{3}-[0-9]{4})$" maxlength="13" required>
   <br><br>
-  <input type="submit" value="Submit">
+  <input type="submit" placeholder="Submit">
 </form> <br>
  <p>Sexo:</p><form action="/action_page.php">
-  <input type="radio" name="gender" value="male"> Másculo<br>
+  <input type="radio" name="gender" value="male"> Masculino<br>
   <input type="radio" name="gender" value="female"> Feminino<br>
-  <input type="radio" name="gender" value="other"> Emásculo<br>
   <input type="radio" name="gender" value="other"> Other<br><br>
-  <input type="submit">
+  <input type="submit" required>
 </form><br>
+
     <p>Tipo musical favorito</p>
+    
 <form action="">
 <input type="checkbox" name="musical type" value="Rock">Rock<br>
 <input type="checkbox" name="musical type" value="Kpop">Kpop<br> 
@@ -33,18 +38,20 @@
 <input type="checkbox" name="musical type" value="Ncs">Ncs<br>
 <input type="checkbox" name="musical type" value="Funk">Funk
 </form>
+
 <br>
-<form>
+
+<form required>
 <p>Selecione a sua cor favorita.:</p>
 <input type="color" name="favcolor">
 </form><br>
 
-<form>
+<form required>
 <p>Coloque sua data de aniversário.:</p>
 <input type="date" name="bday">
 </form><br>
 
-<form>
+<form required>
 <p>Seu email.:</p>
 <input type="email" name="email">
 </form><br>
@@ -59,7 +66,7 @@
 <input type="range" name="points" min="0" max="100">
 </form><br>
 
-    <textarea rows="5" cols="65"><p>Comentários</p>
+    <textarea rows="5" cols="65" placeholder="Comentários">
 </textarea>
 
 <br><p>(Joedno)</p>
